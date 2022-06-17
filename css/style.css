@@ -26,12 +26,11 @@
 }
 
 body {
-  font-family: 'Karla', sans-serif;
+  font-family: "Open Sans",sans-serif;;
   font-weight: normal;
   font-style: normal;
   font-size: 1em;
   line-height: 30px;
-  color: #525f81;
   overflow-x: hidden !important;
   overflow-y: inherit !important;
 }
@@ -68,7 +67,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', sans-serif;
+  font-family: "Open Sans",sans-serif;;
   color: #313e5b;
   margin: 0;
   -ms-word-wrap: break-word;
@@ -192,7 +191,7 @@ blockquote {
 }
 
 blockquote cite {
-  font-family: 'Lato', sans-serif;
+  font-family: "Open Sans",sans-serif;;
   font-weight: bold;
 }
 
@@ -477,7 +476,7 @@ input[type=checkbox] {
 
 .error-404 .big-text {
   font-size: 240px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Open Sans",sans-serif;;
   line-height: 240px;
   color: #313e5b;
   font-weight: bold;
@@ -1311,7 +1310,7 @@ header.style-one .navbar-light .navbar-toggler-icon i {
 .button_link {
   color: #313e5b;
   font-weight: bold;
-  font-family: 'Lato', sans-serif;
+  font-family: "Open Sans",sans-serif;;
 }
 
 .button_link i {
@@ -1667,7 +1666,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
 }
 
 .title-box .title-design {
-  font-family: 'Lato', sans-serif;
+  font-family: "Open Sans",sans-serif;;
   font-weight: normal;
   color: #437eeb;
   display: inline-block;
@@ -3344,6 +3343,10 @@ section {
   background-color: #437eeb !important;
 }
 
+.xamin-white-bg {
+  background-color: white !important;
+}
+
 .xamin-primary-bg {
   background-color: #3f7be7 !important;
 }
@@ -3417,9 +3420,14 @@ section {
 
 }
 .iq-bg-over1 {
-  background: #eff1fe !important;
-  border-radius:38% 0px 0px 0px;
+  background: #437eeb !important;
 }
+
+.iq-bg-over2 {
+  background: #eff1fe !important;
+  color: black;
+}
+
 .iq-bg-over-work {
   background: #eff1fe !important;
   border-radius: 0px  85% 0px 0px;
@@ -3461,6 +3469,7 @@ section {
 }
 .about-us{
   margin-top: 25px;
+  color: white;
 }
 .about-box-img {
   left: 50px;
@@ -3808,13 +3817,13 @@ section {
   animation-duration: 4.5s;
 }
 .animated.fadeInRight{
- animation-duration: 2.5s;
+ animation-duration: 1.5s;
 }
 .animated.fadeInUp{
  animation-duration: 3.5s;
 }
 .animated.fadeInLeft {
- animation-duration: 4.5s;
+ animation-duration: 1.5s;
 }
 
   
